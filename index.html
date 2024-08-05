@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>포트폴리오</title>
+
+        <!-- Fonts -->
+        <script src="https://kit.fontawesome.com/7983e9ad49.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="./app.css" rel="stylesheet" />
+
+
+    </head>
+    <body>
+        <header class="d-flex align-items-center">
+            <h1 class="center">
+                <span>HTML/CSS</span>
+                <span>Javascript</span>
+                <span>Front-end</span>
+                <span>Developer</span>
+                <span>
+                    <small>HTML/CSS JS 프론트엔드 개발자</small>
+                    Yun Hye-Ri
+                    <span class="button-group">
+                        <a class="button" href="https://github.com/yunhyel/portfolio" target="_blank">
+                            github로 가서 코드 보기
+                        </a>
+                    </span>
+                </span>
+            </h1>
+        </header>
+        <section class="d-flex row">
+            <article class="col-lg-4 p-0 mt-0 d-flex flex-column align-items-center justify-content-center">
+                <div class="avatar"> 
+                    <img src= "./images/profile.jpeg" width="auto" height="100%" alt="윤혜리의 사진" /> 
+                </div> 
+                <div class="mt-3 center">
+                    <h3>윤혜리</h3>
+                    <a role="button" class="dim d-flex align-items-center" data-copy="yunhyel22@gmail.com" href="javascript:void(0)" title="클릭 시 메일 주소가 자동으로 복사됩니다.">
+                        <i class="fa-solid fa-envelope"></i>
+                        <small>yunhyel22@gmail.com</small>
+                    </a>
+                </div>
+            </article>
+            <article class="col-lg-8">
+                <h2 class="mb-4">About <span class="point">Me !</span></h2>
+                <p>FrontEnd 개발을 주로 합니다.<br/>
+                FrontEnd 직군으로 NodeJS 기반 React 프로젝트 솔루션 개발에 팀원으로 참여한 경력이 있으며, 회사 사이트 DB 설계 및 간단한 BackEnd 유지/보수 작업도 같이 하였습니다.<br/><br/>
+
+                BackEnd는 주로 작업하지 않지만 Laravel을 사용하여 간단한 사이트의 Restful API 서버는 구축할 수 있으며 AWS EC2에 배포할 수 있습니다.</p>
+            </article>
+        </section>
+        <section class="flex-column">
+            <article>
+                <div class="d-flex row">
+                    <div class="col-lg-4 center">
+                        <h2 class="zigzag">Work</h2>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="mb-5">
+                            <p class="strong">• Ad Intelligence</p>
+                            <p class="skill">NodeJS, React, Laravel, HTML/CSS, SCSS, Javascript, Ajax, Git, Jira</p>
+                            <p class="date">2018 ~ 2022</p>
+                            <p>
+                                FrontEnd 직군으로 입사<br/>
+                                NodeJS 기반 React 프로젝트 솔루션 개발에 팀원으로 참여<br/>
+                                Jira 이용하여 이슈 트래킹 및 이슈 사항 관리<br/>
+                                Laravel(BE) + React(FE) 이용하여 회사 사이트 리뉴얼, 유지/보수
+                            </p>
+                        </div>
+                        <div class="mb-5">
+                            <p class="strong">• Yeong-Sung Media</p>
+                            <p class="skill">HTML/CSS, SCSS, Javascript</p>
+                            <p class="date">2018</p>
+                            <p>
+                                디지털 교과서 단기 팀프로젝트에 프리랜서로 참여<br/>
+                                HTML/CSS 웹표준 코딩<br/>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="d-flex row">
+                    <div class="col-lg-4 center">
+                        <h2 class="zigzag">Skills</h2>
+                    </div>
+                    <div class="col-lg-8">
+                        <ul id="skillList" class="d-flex flex-wrap justify-content-between">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>SCSS</li>
+                            <li>Bootstrap</li>
+                            <li>Javascript</li>
+                            <li>JQuery</li>
+                            <li>Ajax</li>
+                            <li>NodeJS</li>
+                            <li>React</li>
+                            <li>Laravel</li>
+                            <li>Styled Component</li>
+                            <li>Material UI</li>
+                            <li>Git</li>
+                            <li>Bitbucket</li>
+                            <li>Jira</li>
+                            <li>Mysql</li>
+                            <li>AWS EC2</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <div id="notify">
+            <div class="d-flex align-items-center">
+                <i class="fas fa-thumbs-up p-2"></i>
+                <p></p>
+            </div>
+        </div>
+        <footer>
+            © Copyright 2024 Yun Hye-Ri
+        </footer>
+        <script src="./app.js" type="text/javascript"></script>
+    </body>
+</html>
